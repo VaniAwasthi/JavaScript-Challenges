@@ -1,0 +1,32 @@
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #082A2A;
+}
+.questionSection{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+.solutionSection{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#solutionOne{
+    margin: unset;
+}
+button{
+    background-color: blue;
+    color:white;
+    width:120px;
+    height:40px;
+    margin-left: 5%;
+    border: none;
+
+}
+button:hover{
+    background-color: darkgreen;
+}
