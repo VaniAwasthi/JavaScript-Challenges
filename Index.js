@@ -39,4 +39,14 @@ function nameWithMessage(){
     document.getElementById("messageValue").innerHTML = "Hello!" + nameValue +" "+ " "+ "how are you doing ?" ;
 }
 //end of solution 3//
-     
+
+//Return the number count of vowels a, e, i, o, u in the given string. The input string will only consist of lower case letters and/or spaces. for example - console.log getCount'my pyx'; // 0//
+//solution4//
+
+function countVowel() {
+    var word =document.getElementById("vowelValue").value;
+    const reg=/[aeiou]/gi;
+    var chars =word.match(reg);
+    document.getElementById("countOfVowel").innerHTML= "no of vowel in this word:"+" "+chars.length;
+}
+//end of solution 4//
