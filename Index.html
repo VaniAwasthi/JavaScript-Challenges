@@ -10,21 +10,37 @@
 </head>
 <body>
     <H1 class="heading">Javascript challenges</H1>
-    <div class="main">
+    <div class="first">
         <div class="questionSection">
             <h5>Question-1.</h5>
             <h4>Write a JavaScript program to display the current day and time in the following format?</h4>
         </div>
         <div class="solutionSection">
-            <h5 id="solutionOne">solution:</h5>
-            <div class="solution">
-                <button onclick="generatingCurrentDateTime()">Get current date</button>
+            <h5 id="solution">solution:</h5>
+            <div class="results">
+                <button class="btn" onclick="generatingCurrentDateTime()">Get current date</button>
                 <p id="currentDateTime"></p>
                
             </div>
         </div>
     </div>
-    
+    <div class="second">
+        <div class="questionSection">
+            <h5>Question-2.</h5>
+            <h4> Given a string, reverse each word in the sentence?</h4>
+        </div>
+        <div class="solutionSection">
+            <h5 id="solution">solution:</h5>
+            <div class = "results">
+                <h4 class="enterValue" > Enter the Text </h4>
+                <input type = "text" name = "inputText" id = "inputText" style="margin-left:4%" required>
+                <button class="btn" onclick = "reverseString()" > Submit </button>
+                <div class = "resultText">
+                    <p id = "result"> </p>
+                </div>
+            </div>     
+        </div>
+    </div>
     
     
     
