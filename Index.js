@@ -26,7 +26,14 @@ document.getElementById("currentDateTime").innerHTML = today;
     i--;
     }
     document.getElementById("result").style.color = "blue";
-    document.getElementById("result").innerHTML = "Reverse strinh :" + reverseResult;
+    document.getElementById("result").innerHTML = "Reverse string :" + reverseResult;
     }
 
-     //end of solution 1//
+//end of solution 1//
+
+function nameWithMessage(){
+    var nameValue = document.getElementById("nameValue").value;
+    document.getElementById("result").style.color = "blue";
+    document.getElementById("messageValue").innerHTML = "Hello!" + nameValue +" "+ " "+ "how are you doing ?" ;
+}
+     
