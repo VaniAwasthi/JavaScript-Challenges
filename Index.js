@@ -29,11 +29,14 @@ document.getElementById("currentDateTime").innerHTML = today;
     document.getElementById("result").innerHTML = "Reverse string :" + reverseResult;
     }
 
-//end of solution 1//
+//end of solution 2//
 
+//Write a function that given the input string name, returns the greeting statement Hello, <name> how are you doing today?//
+//Solution 3//
 function nameWithMessage(){
     var nameValue = document.getElementById("nameValue").value;
     document.getElementById("result").style.color = "blue";
     document.getElementById("messageValue").innerHTML = "Hello!" + nameValue +" "+ " "+ "how are you doing ?" ;
 }
+//end of solution 3//
      
