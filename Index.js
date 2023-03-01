@@ -50,3 +50,25 @@ function countVowel() {
     document.getElementById("countOfVowel").innerHTML= "no of vowel in this word:"+" "+chars.length;
 }
 //end of solution 4//
+
+//Given a word, your job is to return the middle characters of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.//
+//solution:5//
+function getMiddle(){
+    var words=document.getElementById("evenOdd").value;
+    let length= words.length;
+    let mid= Math.floor(length/2);
+    if(length%2===0){
+        document.getElementById("evenOrOdd").innerHTML=words[mid-1] + words[mid];
+    }
+    else{
+        document.getElementById("evenOrOdd").innerHTML= words[mid];
+    }}
+//write a function that returns the highest and lowest numbers//
+//solution 6//
+var numArr=[11,14,22,67,89,3,67];
+document.getElementById("highestLowest").innerHTML=numArr
+function getHighestLowestNumber(){
+    document.getElementById("highest").innerHTML= "highest number is:"+Math.max(...numArr);
+    document.getElementById("lowest").innerHTML="lowest number is:"+ Math.min(...numArr)
+}
+//end of solution//
