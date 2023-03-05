@@ -72,3 +72,5 @@ function getHighestLowestNumber(){
     document.getElementById("lowest").innerHTML="lowest number is:"+ Math.min(...numArr)
 }
 //end of solution//
+
+   
