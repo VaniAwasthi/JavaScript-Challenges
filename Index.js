@@ -73,4 +73,18 @@ function getHighestLowestNumber(){
 }
 //end of solution//
 
-   
+//Write a function that takes any non-negative integer as an argument and returns it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.//
+//solution 7//
+function convertingInDcendinOrder(){
+    var str = document.getElementById("stringNumber").value;
+    var numStr = str.split('').map(function(item) {
+        return +item;
+    });
+    var orderedArr = numStr.sort(function(a,b){
+     return b-a;
+    });
+    var orderedStr = orderedArr.join("");
+    // console.log(orderedStr)
+     document.getElementById("decendingOrder").innerHTML=orderedStr;
+}
+
