@@ -87,4 +87,30 @@ function convertingInDcendinOrder(){
     // console.log(orderedStr)
      document.getElementById("decendingOrder").innerHTML=orderedStr;
 }
-
+//end//
+//Given an array of numbers, write a function that returns the sum of all of the positives ones. If the array is empty, the sum should be 0//
+//solution//
+var arr=document.getElementById("ArrayNumber").value
+function positiveSum(arr) {
+    var nos = arr;
+    var sum = 0;
+    var nolength=nos.length
+    
+    if ( nolength!= 0 ) {
+      
+       for (i=0; i < nolength; i++) {
+          if (nos[i] > 0) {
+          sum += nos[i];
+          }
+       }
+  
+     }
+    
+    else {
+      sum = 0;
+    }
+    
+    console.log(sum);
+  
+  }
+  
