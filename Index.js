@@ -104,8 +104,7 @@ function positiveSum(arr) {
           }
        }
   
-     }
-    
+    }
     else {
       sum = 0;
     }
