@@ -102,12 +102,12 @@ function positiveSum(arr) {
           if (nos[i] > 0) {
           sum += nos[i];
           }
-       }
-  
+        }
     }
     else {
       sum = 0;
     }
+    return sum;
     
     console.log(sum);
   
