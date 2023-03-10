@@ -90,26 +90,22 @@ function convertingInDcendinOrder(){
 //end//
 //Given an array of numbers, write a function that returns the sum of all of the positives ones. If the array is empty, the sum should be 0//
 //solution//
-var arr=document.getElementById("ArrayNumber").value
-function positiveSum(arr) {
-    var nos = arr;
+var arr=[11,5,6,7];
+    document.getElementById("ArrayNumber").innerHTML=arr
+function positiveSum() {
+    
+     
+    // Creating variable to store the sum
     var sum = 0;
-    var nolength=nos.length
-    
-    if ( nolength!= 0 ) {
-      
-       for (i=0; i < nolength; i++) {
-          if (nos[i] > 0) {
-          sum += nos[i];
-          }
+     
+    // Running the for loop
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i]>0){
+            sum= sum + arr[i];
         }
+       
     }
-    else {
-      sum = 0;
-    }
-    return sum;
-    
-    console.log(sum);
-  
-  }
+    document.getElementById("SummOfNum").innerHTML=sum;
+
+}  
   
