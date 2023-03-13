@@ -93,9 +93,6 @@ function convertingInDcendinOrder(){
 var arr=[11,5,6,7];
     document.getElementById("ArrayNumber").innerHTML=arr
 function positiveSum() {
-    
-     
-    // Creating variable to store the sum
     var sum = 0;
      
     // Running the for loop
@@ -108,4 +105,18 @@ function positiveSum() {
     document.getElementById("SummOfNum").innerHTML=sum;
 
 }  
-  
+  //end of solution//
+  //Given a non-empty string of words, return the length of the shortest word(s).//
+  //solution//
+  let input = document.getElementById("textAreas");
+  let sentence = input.value;
+  var result9=document.getElementById("sortedstring")
+  result9.innerText = findShortestWord(sentence);
+function findShortestWord(sentence) {
+  let wordsArray = sentence.split(" ");
+  wordsArray = wordsArray.map((word) => word.replace(/\./g, ""));
+  let shortest = wordsArray.reduce((current, previous) => {
+    return current.length < previous.length ? current : previous;
+  });
+  return shortest;
+}
