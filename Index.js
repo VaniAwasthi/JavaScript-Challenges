@@ -108,15 +108,12 @@ function positiveSum() {
   //end of solution//
   //Given a non-empty string of words, return the length of the shortest word(s).//
   //solution//
-  let input = document.getElementById("textAreas");
-  let sentence = input.value;
-  var result9=document.getElementById("sortedstring")
-  result9.innerText = findShortestWord(sentence);
-function findShortestWord(sentence) {
-  let wordsArray = sentence.split(" ");
-  wordsArray = wordsArray.map((word) => word.replace(/\./g, ""));
-  let shortest = wordsArray.reduce((current, previous) => {
-    return current.length < previous.length ? current : previous;
-  });
-  return shortest;
-}
+  v
+  var sentence = document.getElementById("textAreas");
+  var s=sentence.value;
+  var results=document.getElementById("sortedstring")
+  function findShort(s){
+    let arr = s.split(" ").sort((a, b) => a.length - b.length);
+    var shotest=arr[0].length;
+    results.innerHTML=shotest;
+  }
