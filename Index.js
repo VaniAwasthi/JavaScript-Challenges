@@ -109,7 +109,7 @@ function positiveSum() {
   //Given a non-empty string of words, return the length of the shortest word(s).//
   //solution//
   var str = '';
-  var statement = document.getElementById("textAreas");
+var statement = document.getElementById("textAreas");
  str=statement.value;
 var results=document.getElementById("sortedstring")
   function shortestWord(str){
@@ -120,7 +120,6 @@ var results=document.getElementById("sortedstring")
             word=shortestWord;
         }
 
-        // console.log(word.length, word, shortestWord, shortestWord.length//
     }
     return shortestWord;
 }
