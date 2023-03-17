@@ -114,12 +114,12 @@ var statement = document.getElementById("textAreas");
 var results=document.getElementById("sortedstring")
   function shortestWord(str){
     let words=str.split('  ');
-    let shortestWord=words[0];
+    let shortword=words[0];
     for(let word of words){
-        if(word.length<shortestWord.length){
-            word=shortestWord;
+        if(word.length<shortword.length){
+            word=shortword;
         }
 
     }
-    return shortestWord;
+    return shortword
 }
