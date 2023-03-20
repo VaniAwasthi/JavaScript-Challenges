@@ -106,7 +106,8 @@ function positiveSum() {
 
 }  
   //end of solution//
-  var input=document.getElementById("statement").value
+  var input="hello vani awasthi";
+  document.getElementById("statement").innerHTML=input;
   function capitalize(input) {  
     var words = input.split(' ');  
     var CapitalizedWords = [];  
