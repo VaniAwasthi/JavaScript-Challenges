@@ -105,4 +105,14 @@ function positiveSum() {
     document.getElementById("SummOfNum").innerHTML=sum;
 
 }  
+//end of solution
 
+//Write a function that given an input URL, returns its domain name. 
+var url=document.getElementById("url").value;
+function getUrl(url){
+    url=url.replace("http://","");
+    url=url.replace("https://","");
+    url=url.replace("www.","")
+    document.getElementById("DomainName").value=url
+
+}
