@@ -108,11 +108,11 @@ function positiveSum() {
 //end of solution
 
 //Write a function that given an input URL, returns its domain name. 
-var url=document.getElementById("url").value;
+var url=document.getElementById("url");
 function getUrl(url){
-    url=url.replace("http://","");
-    url=url.replace("https://","");
-    url=url.replace("www.","")
+    url=url.replace(/^https?:\/\//, "");
+    url=url.replace(/^www\./, "");
+    url=url.replace(/\..*/, '');
     document.getElementById("DomainName").value=url
 
 }
