@@ -109,6 +109,7 @@ function positiveSum() {
 
 //Write a function that given an input URL, returns its domain name. 
 var url="https://github.com"
+document.getElementById("url").innerHTML=url
 function getDomainName(){
     var res=url.replace('https://','');
     console.log(res);
