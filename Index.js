@@ -115,4 +115,19 @@ function getDomainName(){
     console.log(res);
     document.getElementById("DomainName").innerHTML=res
 }
+//end of solution//
+//.Complete the solution so that the function will break up camel casing, using a space between words//
+
+function getCamelCase(){
+    var text=document.getElementById("camelcaseConvert").value
+    const result = text.replace(/([A-Z])/g, " $1");
+    const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
+    console.log(finalResult);
+    document.getElementById("CamelCase").innerHTML=finalResult;
+}
+
+
+
+
+  
 
