@@ -120,7 +120,8 @@ function getDomainName(){
 
 function getCamelCase(){
     var text=document.getElementById("camelcaseConvert").value
-    const result = text.replace(/([A-Z])/g, " $1");
+    const result = text.replace(/([A-Z]+)*([A-Z][a-z])/g, "$1 $2")
+    ;
     const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
     console.log(finalResult);
     document.getElementById("CamelCase").innerHTML=finalResult;
