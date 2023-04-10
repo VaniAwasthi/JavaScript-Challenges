@@ -126,6 +126,8 @@ function getCamelCase(){
     console.log(finalResult);
     document.getElementById("CamelCase").innerHTML=finalResult;
 }
+//end of solution//
+
 
 
 
