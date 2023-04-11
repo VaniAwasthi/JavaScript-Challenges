@@ -134,7 +134,8 @@ function getConcatenation() {
     for(let i=0; i<numLength;i++){
         nums.push(nums[i])
     }
-    console.log(nums)
+    console.log(nums);
+    document.getElementById("concateValue").innerHTML=nums
 };
 
 
