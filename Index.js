@@ -88,8 +88,9 @@ function convertingInDcendinOrder(){
      document.getElementById("decendingOrder").innerHTML=orderedStr;
 }
 //end//
+
 //Given an array of numbers, write a function that returns the sum of all of the positives ones. If the array is empty, the sum should be 0//
-//solution//
+//solution 8//
 var arr=[11,5,6,7];
     document.getElementById("ArrayNumber").innerHTML=arr
 function positiveSum() {
@@ -108,6 +109,7 @@ function positiveSum() {
 //end of solution
 
 //Write a function that given an input URL, returns its domain name. 
+//solution 9
 var url="https://github.com"
 document.getElementById("url").innerHTML=url
 function getDomainName(){
@@ -116,7 +118,8 @@ function getDomainName(){
     document.getElementById("DomainName").innerHTML=res
 }
 //end of solution//
-//.Complete the solution so that the function will break up camel casing, using a space between words//
+//Complete the solution so that the function will break up camel casing, using a space between words//
+//solution 10//
 
 function getCamelCase(){
     var text=document.getElementById("camelcaseConvert").value
@@ -127,6 +130,8 @@ function getCamelCase(){
     document.getElementById("CamelCase").innerHTML=finalResult;
 }
 //end of solution//
+// Write a function that given an integer array nums of length n, returns an array of length 2n where nums is concatenated to itself.//
+//solution 11//
 var nums = [1,2,3,1]
 document.getElementById("ConcateArray").innerHTML=nums
 function getConcatenation() {
@@ -137,6 +142,7 @@ function getConcatenation() {
     console.log(nums);
     document.getElementById("concateValue").innerHTML=nums
 };
+//end of solution//
 
 
 
