@@ -127,6 +127,15 @@ function getCamelCase(){
     document.getElementById("CamelCase").innerHTML=finalResult;
 }
 //end of solution//
+var nums = [1,2,3,1]
+document.getElementById("ConcateArray").innerHTML=nums
+function getConcatenation() {
+    const numLength=nums.length;
+    for(let i=0; i<numLength;i++){
+        nums.push(nums[i])
+    }
+    console.log(nums)
+};
 
 
 
