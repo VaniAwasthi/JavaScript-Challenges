@@ -143,8 +143,28 @@ function getConcatenation() {
     document.getElementById("concateValue").innerHTML=nums
 };
 //end of solution//
+//Write a function that accepts two strings and returns true if some or all of the characters in the first string can be rearranged to match the second string.//
+//solution 12//
+function StringScramble() {
+    var str1=document.getElementById("stringone").value
+    var str2=document.getElementById("stringtwo").value
+    // for each element of str2, remove the punctuation and symbols
+    // this is more for robustness
+    let filteredStr1 = str1.replace(/[^0-9a-zA-Z]/gi, '');
+    let filteredStr2 = str2.replace(/[^0-9a-zA-Z]/gi, '');
+  
+    for (let i = 0; i < filteredStr2.length; i++) {
+      // replace element if it exists in filteredStr1
+      if (filteredStr1.indexOf(filteredStr2[i]) === -1) {
+        console.log("false");
+        document.getElementById("Scrumbleresult").innerHTML="false"
 
-
+      }
+      filteredStr1 = filteredStr1.replace(filteredStr2[i], '');
+    }
+    document.getElementById("Scrumbleresult").innerHTML="true"
+    console.log("true")
+  }
 
 
 
