@@ -50,3 +50,15 @@
     font-style : normal;
     color : blue;
 }
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  tbody tr:nth-child(even) {
+    background: #eee;
+  }
