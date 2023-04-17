@@ -160,26 +160,44 @@ function StringScramble() {
     document.getElementById("Scrumbleresult").innerHTML="true"
     console.log("true")
   }
-  //end of solution
-  //Draw a circle inside square using single DIV in css.
-  //solution 13
+//end of solution
+//Draw a circle inside square using single DIV in css.
+//solution 13
   function draw()
   {
-var canvas = document.getElementById('circle');
-if (canvas.getContext)
-{
-var ctx = canvas.getContext('2d'); 
-var X = canvas.width / 2;
-var Y = canvas.height / 2;
-var R = 45;
-ctx.beginPath();
-ctx.arc(X, Y, R, 0, 2 * Math.PI, false);
-ctx.lineWidth = 3;
-ctx.strokeStyle = '#FF0000';
-ctx.stroke();
-}
-}
+        var canvas = document.getElementById('circle');
+        if (canvas.getContext)
+        {
+        var ctx = canvas.getContext('2d'); 
+        var X = canvas.width / 2;
+        var Y = canvas.height / 2;
+        var R = 45;
+        ctx.beginPath();
+        ctx.arc(X, Y, R, 0, 2 * Math.PI, false);
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = '#FF0000';
+        ctx.stroke();
+        }
+        }
 //end of solution//
+//Write a program that prints the numbers from 1 to 100 and for multiples of ‘3’ print “Fizz” instead of the number, for the multiples of ‘5’ print “Buzz” and for multiple of both 3 and 5 print "FizzBuzz".
+//solution 14//
+function fizzBuzz() {
+    for (let i = 1; i <= 100; i++) {
+      let x = i % 3 === 0;
+      let y = i % 5 === 0;
+      if (x && y) {
+        console.log("FizzBuzz");
+      } else if (x) {
+        console.log("Fizz");
+      } else if (y) {
+        console.log("Buzz");
+      } else {
+        console.log(i);
+      }
+    }
+    return i;
+   }
 
 
 
