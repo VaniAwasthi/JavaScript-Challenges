@@ -203,7 +203,8 @@ var a=document.getElementById("1").value
 var b =document.getElementById("2").value
 function
 myFunction(a, b) {
-return a.includes(b) ? b + a : a + b;
+  let concatVar=document.getElementById("concate")
+  concatVar.innerHTML= a.includes(b) ? b + a : a + b;
 }
 
 
