@@ -198,13 +198,23 @@ function fizzBuzz() {
     }
     return i;
    }
-//// Write a function that takes two strings (a and b) as arguments // If a contains b, append b to the beginning of a // If not, append it to the end // Return the concatenation Add Answer
-var a=document.getElementById("1").value
-var b =document.getElementById("2").value
-function
-myFunction(a, b) {
+// Write a function that takes two strings (a and b) as arguments // If a contains b, append b to the beginning of a // If not, append it to the end // Return the concatenation Add Answer
+//solution no 17
+function myFunction(a, b) {
+  var a=document.getElementById("1").value
+  var b =document.getElementById("2").value
   let concatVar=document.getElementById("concate")
-  concatVar.innerHTML= a.includes(b) ? b + a : a + b;
+  const concate=a.indexOf(b) === -1 ? a + b : b + a;
+  concatVar.innerHTML= concate
+}
+//end of solution//
+//Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise.//
+//solution 18//
+function checkingEquallity(arr){ 
+  var arr =document.getElementById("3").value
+  var equLL= new Set(arr).size === 1;
+  document.getElementById("equall").innerHTML=equLL
+
 }
 
 
