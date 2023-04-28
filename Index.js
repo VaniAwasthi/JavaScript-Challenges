@@ -217,10 +217,24 @@ function checkingEquallity(arr){
 
 }
 //end of solution
-//Write a function that takes an object (a) as argument. Return the sum of all object values.
+// Write a function that takes two date instances as argument. It should return the number of days that lies between those dates//
 //solution 19//
- function objAddition(a){
-  return Object.values(a).reduce((sum, cur) => sum + cur, 0);
-  
- }
+// let firstDate= document.getElementById("4").value
+// let SecondDate= document.getElementById("5").value
+// function noOFDays(firstDate , SecondDate) {
+ 
+//   let noOfDays= Math.floor((Date.UTC(SecondDate.getFullYear(), SecondDate.getMonth(),SecondDate.getDate()) - Date.UTC(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate()) ) /(1000 * 60 * 60 * 24));
+//   // document.getElementById("numberdate").innerHTML=noOFDays
+//   console.log(noOFDays)
+// }
+function date_diff_indays(){
+  var d1 = new Date("08/14/2020");   
+var d2 = new Date("09/14/2020");   
+    
+var diff = d2.getTime() - d1.getTime();   
+    
+var daydiff = diff / (1000 * 60 * 60 * 24);   
+document.getElementById("numberdate").innerHTML=" Total number of days between "+ " " + d1 + " " + "and" +""+ d2 + " " + "is : "+ "" + daydiff + " days";   
+
+}
 
