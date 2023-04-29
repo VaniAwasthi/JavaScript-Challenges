@@ -240,11 +240,19 @@ document.getElementById("numberdate").innerHTML=" Total number of days between "
 //print  pattern//
 //solution 20
 function printingPattern(){
-let rows = 5;
-let pattern = "";
-for (let n = 1; n <= rows; n++) {
-   // inner loop runs for n
-   for (let num = 1; num <= n; num++) {
-      pattern += num;
-   }}
+  let n = 5;
+  let string = "";
+  for (let i = 1; i <= n; i++) {
+    // printing spaces
+    for (let j = 0; j < n - i; j++) {
+      string += " ";
+    }
+    // printing star
+    for (let k = 0; k < i; k++) {
+      string += "*";
+    }
+    string += "\n";
+  }
+  document.getElementById("pattern").innerHTML="see result in console"
+console.log(string)
 }
