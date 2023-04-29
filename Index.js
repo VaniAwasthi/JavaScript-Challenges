@@ -237,4 +237,16 @@ var daydiff = diff / (1000 * 60 * 60 * 24);
 document.getElementById("numberdate").innerHTML=" Total number of days between "+ " " + d1 + " " + "and" +""+ d2 + " " + "is : "+ "" + daydiff + " days";   
 
 }
+//print no. of pattern as much as user enter//
+//solution 20
+let rows = 5;
 
+// pattern variable carries the final pattern in string format
+let pattern = "";
+
+// outer loop runs for `rows` no. of times
+for (let n = 1; n <= rows; n++) {
+   // inner loop runs for n
+   for (let num = 1; num <= n; num++) {
+      pattern += num;
+   }}
