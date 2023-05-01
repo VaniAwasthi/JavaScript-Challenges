@@ -258,7 +258,7 @@ console.log(string)
 }
 //end of solution//
 //Square Star Pattern in Javascript//
-//solution//
+//solution 21//
 function squarePattern(){
   let n=5;
   let strng="";
@@ -268,6 +268,7 @@ function squarePattern(){
     }
     strng+="\n"
   }
+  document.getElementById("square").innerHTML="for rsult go to console"
   console.log(strng)
 }
 //end of sollution//
