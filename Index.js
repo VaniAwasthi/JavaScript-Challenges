@@ -260,12 +260,16 @@ console.log(string)
 //Square Star Pattern in Javascript//
 //solution//
 function squarePattern(){
-  let rowno=5;
+  let n=5;
   let strng="";
-  for(let i=0;i<rowno;i++){
-    for(let j=0; j <rowno;j++){
+  for(let i=0;i<n;i++){
+    for(let j=0; j <n;j++){
       strng+="*";
     }
-    strng+="\rowno"
+    strng+="\n"
   }
+  console.log(strng)
 }
+//end of sollution//
+//downward triangle star pattern
+//solution 22//
