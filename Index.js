@@ -256,3 +256,16 @@ function printingPattern(){
   document.getElementById("pattern").innerHTML="see result in console"
 console.log(string)
 }
+//end of solution//
+//Square Star Pattern in Javascript//
+//solution//
+function squarePattern(){
+  let rowno=5;
+  let strng="";
+  for(let i=0;i<rowno;i++){
+    for(let j=0; j <rowno;j++){
+      strng+="*";
+    }
+    strng+="\rowno"
+  }
+}
