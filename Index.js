@@ -273,3 +273,15 @@ function squarePattern(){
 //end of sollution//
 //downward triangle star pattern
 //solution 22//
+function downwardPattern(){
+  let n=8;
+  let space="";
+  for(let r=0;r<n;r++){
+    for(let v=0; v<n-r; v++){
+      space+= "*"
+    }
+    space+="\n"
+  }
+  document.getElementById("downward").innerHTML="for result go to console"
+  console.log(space)
+}
