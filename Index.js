@@ -286,3 +286,19 @@ function downwardPattern(){
   document.getElementById("downward").innerHTML="for result go to console"
   console.log(space)
 }
+//end of solution//
+//print albhabetic pattern
+function alphabeticPattern(){
+  let n = 5; 
+let string = "";
+for (let i = 1; i <= n; i++) {
+  
+  for (let j = 0; j < i; j++) {
+    string += String.fromCharCode(j + 65);
+  }
+  string += "\n";
+}
+document.getElementById("alpha").innerHTML="Go to console for result"
+console.log(string);
+}
+
