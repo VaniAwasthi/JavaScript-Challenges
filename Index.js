@@ -301,4 +301,16 @@ for (let i = 1; i <= n; i++) {
 document.getElementById("alpha").innerHTML="Go to console for result"
 console.log(string);
 }
+function alphabeticPattern2(){
+  let n = 6;
+let string = "";
+for (let i = 1; i <= n; i++) {
+  for (let j = 0; j < i; j++) {
+    string += String.fromCharCode((i - 1) + 65);
+  }
+  string += "\n";
+}
+document.getElementById("alpha2").innerHTML="Go to console for result"
+console.log(string);
+}
 
