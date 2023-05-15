@@ -358,6 +358,6 @@ const test = () => {
      max_char = { char,occur }
    }
  }
-
+document.getElementById("pra").innerHTML="see console for result"
  console.log(max_char.char) 
 }
