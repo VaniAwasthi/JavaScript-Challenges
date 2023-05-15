@@ -314,3 +314,19 @@ document.getElementById("alpha2").innerHTML="Go to console for result"
 console.log(string);
 }
 
+//end of solution//
+
+function longest_str_in_array()
+  {
+    var arra= ["abc", "ab" , "bcd"]
+    let max_str = arra[0].length;
+    let ans = arra[0];
+    for (let i = 1; i < arra.length; i++) {
+        const maxi = arra[i].length;
+        if (maxi > max_str) {
+            ans = arra[i];
+            max_str = maxi;
+        }
+    }
+    console.log(ans);
+}
