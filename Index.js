@@ -364,8 +364,7 @@ document.getElementById("pra").innerHTML="see console for result"
 //end of solution//
 // program to check if the string is palindrome or not
 
-function checkPalindrome(string) {
-
+function palindrome(string) {
   // find the length of a string
   const len = string.length;
 
@@ -377,13 +376,12 @@ function checkPalindrome(string) {
           return 'It is not a palindrome';
       }
   }
-  return 'It is a palindrome';
+  return 'It is a palindrome'
 }
+function check(){
+const string = document.getElementById("palli").value;
+const value = palindrome(string);
 
-// take input
-const string = prompt('Enter a string: ');
+document.getElementById("ans").innerHTML=value
 
-// call the function
-const value = checkPalindrome(string);
-
-console.log(value);
+}
