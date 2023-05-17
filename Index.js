@@ -287,7 +287,8 @@ function downwardPattern(){
   console.log(space)
 }
 //end of solution//
-//print albhabetic pattern
+//print albhabetic pattern//
+//solution 23//
 function alphabeticPattern(){
   let n = 5; 
 let string = "";
@@ -314,8 +315,8 @@ document.getElementById("alpha2").innerHTML="Go to console for result"
 console.log(string);
 }
 
-//end of solution//
-
+//end of sWrite a function that takes a string and returns the character that is most commonly used in the string. olution//
+//
 function longest_str_in_array()
   {
     var arra= ["abc", "ab" , "bcd"]
