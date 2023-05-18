@@ -259,7 +259,7 @@ console.log(string)
 //end of solution//
 //Square Star Pattern in Javascript//
 //solution 21//
-function squarePattern(){
+const squarePattern=()=>{
   let n=5;
   let strng="";
   for(let i=0;i<n;i++){
@@ -274,7 +274,7 @@ function squarePattern(){
 //end of sollution//
 //downward triangle star pattern
 //solution 22//
-function downwardPattern(){
+const downwardPattern =()=>{
   let n=8;
   let space="";
   for(let r=0;r<n;r++){
