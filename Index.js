@@ -302,7 +302,7 @@ for (let i = 1; i <= n; i++) {
 document.getElementById("alpha").innerHTML="Go to console for result"
 console.log(string);
 }
-function alphabeticPattern2(){
+const alphabeticPattern2=()=>{
   let n = 6;
 let string = "";
 for (let i = 1; i <= n; i++) {
@@ -317,7 +317,7 @@ console.log(string);
 
 //end of sWrite a function that takes a string and returns the character that is most commonly used in the string. olution//
 //
-function longest_str_in_array()
+const longest_str_in_array =()=>
   {
     var arra= ["abc", "ab" , "bcd"]
     let max_str = arra[0].length;
