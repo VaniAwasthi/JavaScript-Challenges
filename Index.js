@@ -375,9 +375,13 @@ document.getElementById("ans").innerHTML=value
 }
 //end of solution //
 //check an integer no //
-const checkinteger=(num)=>{
-  var num = document.getElementById("inte");
+const checkinteger=()=>{
+  console.log("hello")
+  let num = document.getElementById("inte").value;
   if(num%1===0){
-    document.getElementById('check').innerHtml="its an integer number"
+    document.getElementById("check").innerHTML="its an integer number"
+  }
+  else{
+    document.getElementById("check").innerHTML="it is not an integer number"
   }
 }
