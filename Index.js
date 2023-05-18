@@ -210,7 +210,7 @@ function myFunction(a, b) {
 //end of solution//
 //Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise.//
 //solution 18//
-function checkingEquallity(arr){ 
+const checkingEquallity=arr=>{ 
   var arr =document.getElementById("3").value
   var equLL= new Set(arr).size === 1;
   document.getElementById("equall").innerHTML=equLL
@@ -219,15 +219,7 @@ function checkingEquallity(arr){
 //end of solution
 // Write a function that takes two date instances as argument. It should return the number of days that lies between those dates//
 //solution 19//
-// let firstDate= document.getElementById("4").value
-// let SecondDate= document.getElementById("5").value
-// function noOFDays(firstDate , SecondDate) {
- 
-//   let noOfDays= Math.floor((Date.UTC(SecondDate.getFullYear(), SecondDate.getMonth(),SecondDate.getDate()) - Date.UTC(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate()) ) /(1000 * 60 * 60 * 24));
-//   // document.getElementById("numberdate").innerHTML=noOFDays
-//   console.log(noOFDays)
-// }
-function date_diff_indays(){
+const date_diff_indays=()=>{
   var d1 = new Date("08/14/2020");   
 var d2 = new Date("09/14/2020");   
     
@@ -239,7 +231,7 @@ document.getElementById("numberdate").innerHTML=" Total number of days between "
 }
 //print  pattern//
 //solution 20
-function printingPattern(){
+const printingPattern=()=>{
   let n = 5;
   let string = "";
   for (let i = 1; i <= n; i++) {
