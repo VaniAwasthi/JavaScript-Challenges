@@ -9,3 +9,4 @@
 ![Screenshot 2023-05-01 154249](https://user-images.githubusercontent.com/83571284/235439457-ceda3226-8753-4a61-a725-a4fb8e59e342.png)
 
 ![Screenshot 2023-05-02 174412](https://user-images.githubusercontent.com/83571284/235663364-b5443989-bff9-4f2d-8b2a-9659cc455f59.png)
+![Screenshot 2023-05-18 182124](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/0b40d1be-31b1-41ab-b7a5-b2ea529a982c)
