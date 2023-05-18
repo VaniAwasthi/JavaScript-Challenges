@@ -373,3 +373,11 @@ const value = palindrome(string);
 document.getElementById("ans").innerHTML=value
 
 }
+//end of solution //
+//check an integer no //
+const checkinteger=(num)=>{
+  var num = document.getElementById("inte");
+  if(num%1===0){
+    document.getElementById('check').innerHtml="its an integer number"
+  }
+}
