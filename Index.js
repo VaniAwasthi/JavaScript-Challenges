@@ -392,14 +392,14 @@ const checkinteger=()=>{
 const divisibleByThree =()=>{
   let p = document.getElementById("divisible").value;
  
-  if (p % 3===0 ){
-    document.getElementById("statement").innerHTML="Number is divisible by 3"
+  if (p % 3===0 && p % 5 ===0){
+    document.getElementById("statement").innerHTML="Number is divisible by 3 and 5"
   }
   else if(p % 3===0 && p%6===0 ){
     document.getElementById("statement").innerHTML="Number  is  divisible by 3 and 6"
   }
-   else if(p % 3===0 && p % 5 ===0){
-    document.getElementById("statement").innerHTML="Number  is  divisible by 3 and 5"
+   else if(p % 3===0 ){
+    document.getElementById("statement").innerHTML="Number  is  divisible by 3"
   }
   else if(p % 5 === 0){
     document.getElementById("statement").innerHTML="Number  is  divisible by 5"
