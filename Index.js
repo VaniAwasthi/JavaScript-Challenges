@@ -391,13 +391,20 @@ const checkinteger=()=>{
 //solution 28//
 const divisibleByThree =()=>{
   let p = document.getElementById("divisible").value;
-  if (p % 3===0 && p%6===0 && p % 5 ===0){
-    document.getElementById("statement").innerHTML="Number is divisible by 3 , 5 and 6"
+ 
+  if (p % 3===0 ){
+    document.getElementById("statement").innerHTML="Number is divisible by 3"
   }
-   else if(p % 5===0){
+  else if(p % 3===0 && p%6===0 ){
+    document.getElementById("statement").innerHTML="Number  is  divisible by 3 and 6"
+  }
+   else if(p % 3===0 && p % 5 ===0){
+    document.getElementById("statement").innerHTML="Number  is  divisible by 3 and 5"
+  }
+  else if(p % 5 === 0){
     document.getElementById("statement").innerHTML="Number  is  divisible by 5"
   }
-  else if(p % 6===0){
+  else if(p % 6 === 0){
     document.getElementById("statement").innerHTML="Number  is  divisible by 6"
   }
   else{
