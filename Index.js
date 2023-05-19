@@ -411,3 +411,4 @@ const divisibleByThree =()=>{
     document.getElementById("statement").innerHTML="Number  is not  divisible by 3, 5 or 6"
   }
 }
+//end of solution//
