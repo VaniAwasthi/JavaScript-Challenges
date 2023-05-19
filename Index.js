@@ -389,4 +389,12 @@ const checkinteger=()=>{
 //end of solution//
 //check the number is divible by 3 or not //
 //solution 28//
-
+const divisibleByThree =()=>{
+  let p = document.getElementById("divisible").value;
+  if (p % 3===0){
+    document.getElementById("statement").innerHTML="it is divisible by 3"
+  }
+  else{
+    document.getElementById("statement").innerHTML="it is not divisible by 3"
+  }
+}
