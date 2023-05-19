@@ -10,3 +10,8 @@
 
 ![Screenshot 2023-05-02 174412](https://user-images.githubusercontent.com/83571284/235663364-b5443989-bff9-4f2d-8b2a-9659cc455f59.png)
 ![Screenshot 2023-05-18 182124](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/0b40d1be-31b1-41ab-b7a5-b2ea529a982c)
+![Screenshot 2023-05-19 141637](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/fb23274a-f39a-44d5-91e7-fedda73921cf)
+
+![Screenshot 2023-05-19 141656](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/a34b8fbd-a69c-4be5-af40-27cf7733531c)
+![Screenshot 2023-05-19 141748](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/2ad17e79-011c-42a2-b8a0-579a264d2d0a)
+![Screenshot 2023-05-19 141823](https://github.com/VaniAwasthi/JavaScript-Challenges/assets/83571284/57716979-3485-4203-a934-b77e68a37c6e)
