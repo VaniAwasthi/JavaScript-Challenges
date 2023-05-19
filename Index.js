@@ -307,8 +307,9 @@ document.getElementById("alpha2").innerHTML="Go to console for result"
 console.log(string);
 }
 
-//end of sWrite a function that takes a string and returns the character that is most commonly used in the string. olution//
-//
+//end of solution
+//Write a function that takes a string and returns the character that is most commonly used in the string. olution//
+//solution 24//
 const longest_str_in_array =()=>
   {
     var arra= ["abc", "ab" , "bcd"]
@@ -326,6 +327,7 @@ const longest_str_in_array =()=>
 }
 //end of solution//
 //Write a function that takes a string and returns the character that is most commonly used in the string.
+//solution 25//
 const test = () => { 
   var str=document.getElementById("set").value;
   if (str.length === 0) 
@@ -342,8 +344,6 @@ const test = () => {
    {
      occurrence_Map.set(char, occurrence_Map.get(char) + 1 || 1)
    }
-
- // find the max char from the occurrence map
  let max_char = { char: '', occur: -Infinity }
 
  for (const [char, occur] of occurrence_Map) {
@@ -356,7 +356,7 @@ document.getElementById("pra").innerHTML="see console for result"
 }
 //end of solution//
 // program to check if the string is palindrome or not
-
+//solution 26//
 function palindrome(string) {
   const len = string.length;
   for (let i = 0; i < len / 2; i++) {
@@ -375,6 +375,7 @@ document.getElementById("ans").innerHTML=value
 }
 //end of solution //
 //check an integer no //
+//solution 27//
 const checkinteger=()=>{
   console.log("hello")
   let num = document.getElementById("inte").value;
@@ -385,3 +386,7 @@ const checkinteger=()=>{
     document.getElementById("check").innerHTML="it is not an integer number"
   }
 }
+//end of solution//
+//check the number is divible by 3 or not //
+//solution 28//
+
