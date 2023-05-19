@@ -412,3 +412,13 @@ const divisibleByThree =()=>{
   }
 }
 //end of solution//
+//with the use of spread add element in array//
+//solution 29//
+const addNewElementInArray=()=>{
+  // const array = [1,2,3,4,5];
+  const array= document.getElementById("ele").value
+  const newElement = document.getElementById("newEle").value;
+  const newarr = [...array,newElement];
+  console.log(newarr);
+  document.getElementById("newarr").innerHTML= newarr;
+}
