@@ -19,6 +19,9 @@
 #solution{
     margin: unset;
 }
+h6{
+    margin: 3px;
+}
 .btn{
     background-color: blue;
     color:white;
