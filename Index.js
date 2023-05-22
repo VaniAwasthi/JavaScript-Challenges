@@ -428,5 +428,5 @@ const addNewElementInArray=()=>{
 function checkTypeOff(){
   let value = document.getElementById("value").value;
   let valueResult= typeof value;
-   document.getElementById("valueRes").innerHTML= valueResult
+  document.getElementById("valueRes").innerHTML= valueResult
 }
