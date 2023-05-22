@@ -425,3 +425,8 @@ const addNewElementInArray=()=>{
 //end of solution//
 //write functiom to know typeOff of values//
 //solution 30//
+function checkTypeOff(){
+  let value = document.getElementById("value").value;
+  let valueResult= typeof value;
+   document.getElementById("valueRes").innerHTML= valueResult
+}
