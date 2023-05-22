@@ -422,3 +422,6 @@ const addNewElementInArray=()=>{
   console.log(newarr);
   document.getElementById("newarr").innerHTML= newarr;
 }
+//end of solution//
+//write functiom to know typeOff of values//
+//solution 30//
