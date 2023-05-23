@@ -432,3 +432,14 @@ function checkTypeOff(){
 }
 //end of solution//
 //write function to know divisible of 7//
+// solution 31//
+const divibleOfSeven=()=>{
+  let userNumber=document.getElementById("userNumber").value
+  if (userNumber%7===0){
+    document.getElementById("9").innerHTML="hey its divible by 7";
+  }
+  else{
+    document.getElementById("9").innerHTML="sorry  its not  divible by 7";
+
+  }
+}
