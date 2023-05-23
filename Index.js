@@ -430,3 +430,5 @@ function checkTypeOff(){
   let valueResult= typeof value;
   document.getElementById("valueRes").innerHTML= valueResult
 }
+//end of solution//
+//write function to know divisible of 7//
