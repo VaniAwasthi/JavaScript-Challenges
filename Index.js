@@ -448,11 +448,11 @@ const divibleOfSeven=()=>{
 // solution 32//
 const divibleOfEight=()=>{
   let userNumber=document.getElementById("userNumbers").value
-  if (userNumber%7===0){
+  if (userNumber%8===0){
     document.getElementById("10").innerHTML="hey its divible by 8";
   }
   else{
-    document.getElementById("9").innerHTML="sorry  its not  divible by 7";
+    document.getElementById("10").innerHTML="sorry  its not  divible by 7";
 
   }
 }
