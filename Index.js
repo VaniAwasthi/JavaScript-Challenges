@@ -449,7 +449,7 @@ const divibleOfSeven=()=>{
 const divibleOfEight=()=>{
   let userNumber=document.getElementById("userNumbers").value
   if (userNumber%7===0){
-    document.getElementById("9").innerHTML="hey its divible by 7";
+    document.getElementById("10").innerHTML="hey its divible by 8";
   }
   else{
     document.getElementById("9").innerHTML="sorry  its not  divible by 7";
