@@ -443,3 +443,16 @@ const divibleOfSeven=()=>{
 
   }
 }
+//end of solution//
+//write function to know divisible of 8//
+// solution 32//
+const divibleOfEight=()=>{
+  let userNumber=document.getElementById("userNumbers").value
+  if (userNumber%7===0){
+    document.getElementById("9").innerHTML="hey its divible by 7";
+  }
+  else{
+    document.getElementById("9").innerHTML="sorry  its not  divible by 7";
+
+  }
+}
