@@ -452,7 +452,7 @@ const divibleOfEight=()=>{
     document.getElementById("10").innerHTML="hey its divible by 8";
   }
   else{
-    document.getElementById("10").innerHTML="sorry  its not  divible by 7";
+    document.getElementById("10").innerHTML="sorry  its not  divible by 8";
 
   }
 }
