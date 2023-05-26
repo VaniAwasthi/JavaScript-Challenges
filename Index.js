@@ -457,3 +457,14 @@ const divibleOfEight=()=>{
   }
 }
 //end of solution//
+//write a function to check coressponding day of a week for any date in past or future//
+//solution//
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+days.forEach((day,index)=>{
+  var date = document.getElementById("date").value
+    // Check if the index of day value is equal to the returned value of getDay()
+    if(index == date.getDay()){
+        console.log("Today is "+day)}
+    }
+)
